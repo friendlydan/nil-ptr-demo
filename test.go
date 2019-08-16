@@ -2,9 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/codelingo/rectangle"
 	"log"
 	"potentialNilPointer/types"
+
+	"github.com/codelingo/rectangle"
 )
 
 type Rect struct {
@@ -88,4 +89,7 @@ func main() {
 	}
 	fmt.Println("Width", modifiedC3.Width)
 	fmt.Println("Hight", modifiedC3.Height)
+
+	t := []string{}
+	fmt.Println(t)
 }
