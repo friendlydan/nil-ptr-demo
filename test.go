@@ -90,6 +90,6 @@ func main() {
 	fmt.Println("Width", modifiedC3.Width)
 	fmt.Println("Hight", modifiedC3.Height)
 
-	t := []string{}
+	var t []string
 	fmt.Println(t)
 }
