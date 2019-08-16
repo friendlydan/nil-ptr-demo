@@ -1,2 +1,3 @@
 tenets:
 - import: codelingo/dev/potential-nil-pointer
+- import: codelingo/code-review-comments/declare-empty-slice
